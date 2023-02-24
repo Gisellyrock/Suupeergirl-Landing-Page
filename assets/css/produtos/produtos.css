@@ -5,12 +5,6 @@
 
 .produtos h2 {
   margin-bottom: 40px;
-  box-sizing: border-box;
-  width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .produtos ul {
@@ -45,11 +39,14 @@
     width: 12px;
     margin-right: 8px;
     background-color: #90f5d7;
+    transition: width 0.2s;
 }
 
-.produtos h3::before
+.produtos a:hover h3::before {
+    width: 24px;
+}
 
-.produtos li span{
+.produtos li span {
     padding-left: 20px;
 }
 

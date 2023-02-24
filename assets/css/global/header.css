@@ -1,5 +1,5 @@
 .header-bg {
-    background-color: #ffffff;
+    background-color: #FCE700;
   }
   
   .header {
@@ -8,11 +8,8 @@
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    padding: 20px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   .header-menu {
@@ -22,7 +19,7 @@
   }
   
   .header-menu a {
-    color: #8e8e8e;
+    color: #6b6b6b;
     padding: 16px 0px;
     display: inline-block;
     font-size: 18px;
